@@ -1,0 +1,36 @@
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.exe
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.deps.json
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.runtimeconfig.json
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.runtimeconfig.dev.json
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.dll
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.Views.dll
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\bin\Debug\netcoreapp3.1\Price Comparison.Views.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.csprojAssemblyReference.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.AssemblyInfoInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.AssemblyInfo.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.csproj.CoreCompileInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.MvcApplicationPartsAssemblyInfo.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.RazorAssemblyInfo.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.RazorAssemblyInfo.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.TagHelpers.input.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.TagHelpers.output.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.RazorCoreGenerate.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.RazorTargetAssemblyInfo.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.RazorTargetAssemblyInfo.cs
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.Views.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\staticwebassets\Price Comparison.StaticWebAssets.Manifest.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\staticwebassets\Price Comparison.StaticWebAssets.xml
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.dll
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.genruntimeconfig.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Tasks\Task2\Price Comparison\obj\Debug\netcoreapp3.1\Price Comparison.csproj.CopyComplete

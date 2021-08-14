@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAppUIStyleTwo.App">
+    <Application.Resources>
+        <Color x:Key="primaryColor">#6200EA</Color>
+        <Color x:Key="primaryColorLight">#e9dff0</Color>
+        <Color x:Key="listViewColor">#ededed</Color>
+        <Color x:Key="secondaryColor">#F9F9F9</Color>
+        <Color x:Key="secondaryLight">White</Color>
+
+        <Color x:Key="txtColor">Black</Color>
+        <Color x:Key="headingColor">#FCFCFC</Color>
+        
+        <x:String x:Key="AppFontRegular">OpenSansRegular</x:String>
+        <x:String x:Key="AppFontExtraBold">OpenSansExtraBold</x:String>
+        <x:String x:Key="AppFontBold">OpenSansBold</x:String>
+        <x:String x:Key="AppFontSemiBold">OpenSansSemiBold</x:String>
+        <x:String x:Key="AppFontLightItalic">OpenSansLightItalic</x:String>
+        <x:String x:Key="AppFontLight">OpenSansLight</x:String>
+
+        <x:String x:Key="AppFont2Black">PoppinsBlack</x:String>
+        <x:String x:Key="AppFont2Bold">PoppinsBold</x:String>
+        <x:String x:Key="AppFont2Italic">PoppinsItalic</x:String>
+        <x:String x:Key="AppFont2Medium">PoppinsMedium</x:String>
+        <x:String x:Key="AppFont2Regular">PoppinsRegular</x:String>
+        <x:String x:Key="AppFont2SemiBold">PoppinsSemiBold</x:String>
+    </Application.Resources>
+</Application>

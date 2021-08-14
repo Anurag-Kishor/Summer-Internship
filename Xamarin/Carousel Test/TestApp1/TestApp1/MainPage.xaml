@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TestApp1"
+             x:Class="TestApp1.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainViewModel></local:MainViewModel>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Label Text="Discover" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
+
+        <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="10">
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout Orientation="Horizontal" 
+                                   ItemSpacing="20"/>
+            </CarouselView.ItemsLayout>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Frame HeightRequest="260" WidthRequest="160" 
+                           BackgroundColor="White" HasShadow="True"
+                           Margin="10" HorizontalOptions="Center"
+                           Padding="0" CornerRadius="10">       
+
+                        <Grid>
+                            <StackLayout BackgroundColor="Black">
+                                <Image Source="{Binding imgSource}" 
+                                       Aspect="AspectFill" VerticalOptions="FillAndExpand"
+                                       Opacity="0.8"/>  
+                            </StackLayout>
+
+                            <StackLayout Margin="0,0, 0, 10">
+                                <Image Source="https://icons-for-free.com/iconfiles/png/512/bookmark-131964752402712733.png"
+                               Aspect="AspectFit" HeightRequest="40" HorizontalOptions="EndAndExpand" Margin="-1"/>
+
+                                <Label Text="{Binding title}" TextColor="White" 
+                                       FontSize="18" FontAttributes="Bold" 
+                                       Margin="15,0" VerticalOptions="EndAndExpand"/>   
+
+                                <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                    <Image Source="https://i.pinimg.com/originals/0f/61/ba/0f61ba72e0e12ba59d30a50295964871.png"
+                                            Aspect="AspectFit" HeightRequest="20" Margin="-5,0"
+                               />
+                                    <Label Text="{Binding country}" TextColor="White" 
+                                           FontSize="14" FontAttributes="Bold" 
+                                           VerticalOptions="EndAndExpand"/> 
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Explore" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
+            <Label Text="Show All" TextColor="DimGray" FontSize="18" 
+                   FontAttributes="None" Margin="15" 
+                   VerticalTextAlignment="Center" 
+                   HorizontalOptions="EndAndExpand" TextDecorations="Underline" Opacity="0.5"/>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+            <StackLayout Margin="10">
+                <ImageButton Source="https://www.pinclipart.com/picdir/middle/356-3561447_computer-icons-cross-country-skiing-sport-skiing-icon.png" HeightRequest="50"/>
+                <Label HorizontalOptions="Center" Text="Item1" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <ImageButton Source="https://www.pinclipart.com/picdir/middle/356-3561447_computer-icons-cross-country-skiing-sport-skiing-icon.png" HeightRequest="50"/>
+                <Label HorizontalOptions="Center" Text="Item2" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <ImageButton Source="https://www.pinclipart.com/picdir/middle/356-3561447_computer-icons-cross-country-skiing-sport-skiing-icon.png" HeightRequest="50"/>
+                <Label HorizontalOptions="Center" Text="Item3" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <ImageButton Source="https://www.seekpng.com/png/full/339-3397552_cross-country-skiing-icon-ski-png.png" HeightRequest="50"/>
+                <Label HorizontalOptions="Center" Text="Item4" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

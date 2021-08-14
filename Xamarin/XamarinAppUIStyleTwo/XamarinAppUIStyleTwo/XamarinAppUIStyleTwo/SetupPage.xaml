@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:XamarinAppUIStyleTwo.ViewModels" xmlns:ce="clr-namespace:XamarinAppUIStyleTwo" xmlns:local="clr-namespace:XamarinAppUIStyleTwo.Others"
+             x:Class="XamarinAppUIStyleTwo.SetupPage" BackgroundColor="{StaticResource secondaryColor}"
+             NavigationPage.HasNavigationBar="False">
+
+
+    <ContentPage.BindingContext>
+        <viewmodels:ControllerAgentsViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EntryStyle" TargetType="ce:CustomEntry">
+                <Setter Property="FontFamily" Value="{StaticResource AppFontRegular}"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource secondaryColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource txtColor}"/>
+                <Setter Property="WidthRequest">40</Setter>
+
+            </Style>
+            <local:NameConverter x:Key="NameConverter"/>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+
+            <!-- 1st row (header)-->
+
+            <StackLayout x:Name="Header" BackgroundColor="{StaticResource primaryColor}" 
+                         HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"
+                         >
+                <Grid RowDefinitions="Auto,Auto" VerticalOptions="FillAndExpand"
+                      RowSpacing="0" Padding="40" HorizontalOptions="CenterAndExpand">
+
+                    <Label x:Name="Title"  Grid.Row="0" Text="What will this device be used as?" IsVisible="True"
+                       FontFamily="{StaticResource AppFontBold}" 
+                       FontSize="18" TextColor="{StaticResource headingColor}" HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand" Padding="5"/>
+
+                    <!-- Button control -->
+                    <Frame x:Name="BtnControl" Grid.Row="1" Padding="0" HorizontalOptions="CenterAndExpand" HeightRequest="60"
+                       BackgroundColor="White" WidthRequest="300" CornerRadius="40"  
+                       VerticalOptions="CenterAndExpand" IsVisible="True">
+
+                        <Grid ColumnDefinitions="*,*" x:Name="roleGrid">
+
+                            <!-- Selection Frame -->
+                            <Frame x:Name="RoleSelection" Grid.Row="0" BackgroundColor="{StaticResource primaryColorLight}"
+                               CornerRadius="25" />
+
+                            <!-- Agent -->
+                            <StackLayout x:Name="AgentStack" Grid.Column="0" HorizontalOptions="FillAndExpand">
+                                <Frame Padding="0" HasShadow="False" BackgroundColor="Transparent"
+                                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="Agent_Selected"/>
+                                    </Frame.GestureRecognizers>
+
+                                    <Label Text="Agent" x:Name="AgentText" HorizontalOptions="Center" TextColor="{StaticResource txtColor}"
+                                       VerticalOptions="Center" FontFamily="{StaticResource AppFontExtraBold}"
+                                       FontSize="18"/>
+                                </Frame>
+                            </StackLayout>
+
+                            <!-- Controller -->
+                            <StackLayout Grid.Column="1" x:Name="ControllerStack" >
+                                <Frame Padding="0" HasShadow="False" BackgroundColor="Transparent"
+                                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="Controller_Selected"/>
+                                    </Frame.GestureRecognizers>
+
+                                    <Label Text="Controller" x:Name="ControllerText" HorizontalOptions="Center" TextColor="{StaticResource txtColor}"
+                                       VerticalOptions="Center" FontFamily="{StaticResource AppFontBold}"
+                                       FontSize="18"/>
+                                </Frame>
+                            </StackLayout>
+
+
+                        </Grid>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+
+
+            <!-- 2nd row (Forms) -->
+            <StackLayout x:Name="Forms" BackgroundColor="{StaticResource secondaryColor}" HorizontalOptions="FillAndExpand"
+                         VerticalOptions="StartAndExpand" IsVisible="True">
+
+                <!-- Agent Form -->
+                <Frame x:Name="AgentForm" Padding="0" CornerRadius="20" 
+                       Margin="20" VerticalOptions="StartAndExpand" IsVisible="True" >
+                    
+                    <StackLayout x:Name="HelperStack" VerticalOptions="FillAndExpand"  
+                                 HorizontalOptions="FillAndExpand" BackgroundColor="Transparent" >
+
+                        <StackLayout x:Name="AgentFormStack" VerticalOptions="StartAndExpand" Spacing="30" Padding="20"
+                                 HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent">
+                            <Label Text="Agent Login" TextColor="{StaticResource primaryColor}"
+                               FontFamily="{StaticResource AppFontSemiBold}" FontSize="20"/>
+
+                            <Label Text="Who is the controller of this phone?" TextColor="{StaticResource txtColor}" 
+                               FontFamily="{StaticResource AppFontRegular}"  FontSize="18" />
+
+                            <StackLayout>
+                                <Label Text="Controller's Name: " FontSize="Medium" TextColor="{StaticResource txtColor}"/>
+                                <ce:CustomEntry Placeholder="" Style="{StaticResource EntryStyle}"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <Label Text="Controller's Password " FontSize="Medium" TextColor="{StaticResource txtColor}"/>
+                                <ce:CustomEntry IsPassword="True" Style="{StaticResource EntryStyle}"/>
+                            </StackLayout>
+
+                            <Frame Padding="50,5,50,5" BackgroundColor="{StaticResource primaryColor}" CornerRadius="25"
+                                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Go_Clicked"/>
+                                </Frame.GestureRecognizers>
+                                <Label Text="GO" TextColor="{StaticResource headingColor}" 
+                                       FontFamily="{StaticResource AppFontExtraBold}" FontSize="24" HorizontalOptions="CenterAndExpand"/>
+                            </Frame>
+                        </StackLayout>
+
+
+                        <Frame x:Name="AgentList" Padding="0" BackgroundColor="Transparent" HeightRequest="100" IsVisible="False">
+                            <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand" Spacing="0">
+                                <ImageButton Source="backarrow.png" VerticalOptions="CenterAndExpand" 
+                                         HorizontalOptions="Start" Padding="10"
+                                         BackgroundColor="Transparent" Clicked="Go_Clicked"/>
+                                <Label Text="Agent List" FontSize="28" BackgroundColor="Transparent"
+                                   VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand"
+                                   TextColor="{StaticResource primaryColor}"
+                                   FontFamily="{StaticResource AppFontBold}" IsVisible="True"
+                                   Margin="-20,10,10,10"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+                </Frame>
+
+
+                <!-- Controller Form -->
+                <Frame x:Name="ControllerForm"  CornerRadius="20" BackgroundColor="White"
+                       Margin="20" VerticalOptions="CenterAndExpand" IsVisible="False">
+                    <StackLayout VerticalOptions="StartAndExpand" Spacing="10" 
+                                 HorizontalOptions="FillAndExpand">
+
+                        <Label Text="Controller Registration" TextColor="{StaticResource primaryColor}"
+                               FontFamily="{StaticResource AppFontSemiBold}" FontSize="20"/>
+
+                        <StackLayout Spacing="20" BackgroundColor="Transparent"   >
+                            <Label Text="Create a new Controller" TextColor="{StaticResource txtColor}" 
+                                   FontFamily="{StaticResource AppFontRegular}"  FontSize="18" />
+
+                            <StackLayout>
+                                <Label Text="Name" FontSize="Medium" TextColor="{StaticResource txtColor}" Padding="5,0,0,0"/>
+                                <ce:CustomEntry Style="{StaticResource EntryStyle}"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <Label Text="Email" FontSize="Medium" TextColor="{StaticResource txtColor}" Padding="5,0,0,0"/>
+                                <ce:CustomEntry Keyboard="Email"
+                                            Style="{StaticResource EntryStyle}"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <Label Text="Password" FontSize="Medium" TextColor="{StaticResource txtColor}" Padding="5,0,0,0"/>
+                                <ce:CustomEntry IsPassword="True" Style="{StaticResource EntryStyle}"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <Label Text="Confirm password" FontSize="Medium" TextColor="{StaticResource txtColor}" Padding="5,0,0,0"/>
+                                <ce:CustomEntry IsPassword="True" 
+                                           Style="{StaticResource EntryStyle}"/>
+                            </StackLayout>
+
+
+
+                            <Frame Padding="50,5,50,5" BackgroundColor="{StaticResource primaryColor}" CornerRadius="25"
+                                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="SubmitController">
+                                        
+                                    </TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <Label Text="GO" TextColor="{StaticResource headingColor}" 
+                                           FontFamily="{StaticResource AppFontExtraBold}" FontSize="24" HorizontalOptions="CenterAndExpand"/>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+
+
+
+            </StackLayout>
+
+
+            <!-- 3rd row (Agent List) -->
+
+            <StackLayout x:Name="AgentListView" HorizontalOptions="CenterAndExpand" IsVisible="False"
+                             BackgroundColor="{StaticResource secondaryColor}">
+
+
+                <ListView ItemsSource="{Binding AgentList}"
+                      HasUnevenRows="True" SeparatorVisibility="None"
+                       BackgroundColor="Transparent" SelectionMode="None" ItemTapped="OnItemTapped">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+
+                                <Frame HorizontalOptions="FillAndExpand" CornerRadius="20"
+                                           VerticalOptions="CenterAndExpand" Margin="40,10,40,10">
+
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="{Binding Image}" HeightRequest="40"/>
+                                        <StackLayout Margin="10,0,0,0">
+                                            <Label Text="{Binding AgentId, StringFormat= 'ID: {0:N}'}" FontSize="18"/>
+                                            <Label Text="{Binding .,Converter={StaticResource NameConverter},ConverterParameter={x:Reference Name=AgentListView}, StringFormat='Name: {0:N}'}" FontSize="18"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

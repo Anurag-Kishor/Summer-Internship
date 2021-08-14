@@ -1,0 +1,15 @@
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.deps.json
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\bin\Debug\netstandard2.0\ref\TestApp1.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.pdb
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.AssemblyInfoInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.AssemblyInfo.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\TestApp1.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\DetailPage.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csproj.CoreCompileInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\TestApp1\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csproj.AssemblyReference.cache

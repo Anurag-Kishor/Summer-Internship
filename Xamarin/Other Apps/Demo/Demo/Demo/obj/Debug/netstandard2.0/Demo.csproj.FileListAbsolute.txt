@@ -1,0 +1,15 @@
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\bin\Debug\netstandard2.0\Demo.deps.json
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\bin\Debug\netstandard2.0\Demo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\bin\Debug\netstandard2.0\ref\Demo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\bin\Debug\netstandard2.0\Demo.pdb
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\Demo.csprojAssemblyReference.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\Demo.AssemblyInfoInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\Demo.AssemblyInfo.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\Demo.csproj.CoreCompileInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\Demo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\ref\Demo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\Demo.pdb
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\Demo\Demo\Demo\obj\Debug\netstandard2.0\StackLayoutPage.xaml.g.cs

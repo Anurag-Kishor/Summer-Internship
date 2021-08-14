@@ -1,0 +1,7 @@
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe.config
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\obj\Debug\LearnCSharp.csprojAssemblyReference.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\obj\Debug\LearnCSharp.csproj.CoreCompileInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\obj\Debug\LearnCSharp.exe
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\LearnCSharp\obj\Debug\LearnCSharp.pdb

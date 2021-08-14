@@ -1,0 +1,7 @@
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\bin\Debug\OOPS.exe.config
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\bin\Debug\OOPS.exe
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\bin\Debug\OOPS.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\obj\Debug\OOPS.csproj.CoreCompileInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\obj\Debug\OOPS.exe
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\obj\Debug\OOPS.pdb
+D:\Anu\DAIICT\OOPS\Internship\C#\Learn\LearnCSharp\OOPS\obj\Debug\OOPS.csprojAssemblyReference.cache

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "4e5oCzHX7ZeYILRJiaslapByC+x6SNMCPq6Tih64prP9gOZJfywDwevHNZueoIkAgl2LBW8qL4PORVD5K+OOhw==",
+  "success": true,
+  "projectFilePath": "D:\\Anu\\DAIICT\\OOPS\\Internship\\Xamarin\\AgentControllerApp\\XamarinAppUIStyleTwo\\XamarinAppUIStyleTwo.iOS\\XamarinAppUIStyleTwo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\syncfusion.licensing\\19.2.0.49\\syncfusion.licensing.19.2.0.49.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\syncfusion.xamarin.buttons\\19.2.0.49\\syncfusion.xamarin.buttons.19.2.0.49.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\syncfusion.xamarin.core\\19.2.0.49\\syncfusion.xamarin.core.19.2.0.49.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="TestApp1.DetailPage">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Pink">
+                <Grid>
+                    <Frame  Padding="0" BackgroundColor="Black">
+                        <Image Opacity="0.8" Source="https://images.pexels.com/photos/2743287/pexels-photo-2743287.jpeg"/>
+                    </Frame>
+                    
+                    <StackLayout VerticalOptions="EndAndExpand" Margin="15,15,15,65">
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Location 2" TextColor="White" 
+                                   FontSize="26" FontAttributes="None" 
+                                   Grid.Column="0"/>
+
+                            <StackLayout Grid.Column="1"  >
+                                
+                                <Label Text="5.0" TextColor="White" 
+                                   FontSize="26" FontAttributes="None" HorizontalOptions="Center"
+                                   />
+                               
+                                <Label Text="100 Reviews" TextColor="White" 
+                                   FontSize="18" FontAttributes="None" 
+                                   HorizontalOptions="Center"/>
+                                
+                            </StackLayout>
+                        </Grid>
+                    </StackLayout>
+                    
+                </Grid>
+
+                <Grid VerticalOptions="FillAndExpand" 
+                       Margin="0,-30,0,0">
+                    
+                    <Frame CornerRadius="30" Padding="0">
+                       
+                    </Frame>
+                    <pancake:PancakeView CornerRadius="50" Padding="5"
+                               BackgroundColor="White" 
+                               HeightRequest="70" 
+                               WidthRequest="70"  
+                               HorizontalOptions="EndAndExpand"
+                               VerticalOptions="Start"
+                               Margin="15,-30,20,15">
+
+                        <pancake:PancakeView.Shadow>
+                            <pancake:DropShadow Color="Black" BlurRadius="15" Offset="-1,1"/>
+                        </pancake:PancakeView.Shadow>
+                        <Image Source="https://icons-for-free.com/iconfiles/png/512/bookmark-131964752402712733.png" Aspect="AspectFit" Margin="10  "/>
+                    </pancake:PancakeView>
+
+                    <StackLayout Orientation="Vertical" Padding="20" >
+                        <Label Text="Description" VerticalOptions="Start" 
+                           FontSize="26" FontAttributes="Bold" TextColor="OrangeRed"/>
+
+                        <Label Text="Hello this is location 2" HorizontalOptions="StartAndExpand"
+                               FontSize="20" TextColor="Black"/>
+
+                        <Label Text="Price" VerticalOptions="Start" 
+                           FontSize="26" FontAttributes="Bold" TextColor="OrangeRed" Margin="0,10,0,0"/>
+
+                        <Label Text="--" HorizontalOptions="StartAndExpand"
+                               FontSize="20" TextColor="Black"/>
+
+                        
+                    </StackLayout>
+
+                    <StackLayout VerticalOptions="EndAndExpand" HeightRequest="70">
+                        <Button Text="Book Trip" BackgroundColor="OrangeRed" CornerRadius="15" 
+                                VerticalOptions="FillAndExpand" TextColor="White"
+                              />
+
+                    </StackLayout>
+
+                </Grid>
+ 
+            </StackLayout>
+
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

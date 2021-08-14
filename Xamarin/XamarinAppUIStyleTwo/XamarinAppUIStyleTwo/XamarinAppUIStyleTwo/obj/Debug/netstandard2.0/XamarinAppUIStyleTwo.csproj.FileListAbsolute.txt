@@ -1,0 +1,16 @@
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\bin\Debug\netstandard2.0\XamarinAppUIStyleTwo.deps.json
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\bin\Debug\netstandard2.0\XamarinAppUIStyleTwo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\bin\Debug\netstandard2.0\ref\XamarinAppUIStyleTwo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\bin\Debug\netstandard2.0\XamarinAppUIStyleTwo.pdb
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamarinAppUIStyleTwo.csproj.AssemblyReference.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\SetupPage.xaml.g.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamarinAppUIStyleTwo.AssemblyInfoInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamarinAppUIStyleTwo.AssemblyInfo.cs
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamarinAppUIStyleTwo.csproj.CoreCompileInputs.cache
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamarinAppUIStyleTwo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\ref\XamarinAppUIStyleTwo.dll
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\XamarinAppUIStyleTwo.pdb
+D:\Anu\DAIICT\OOPS\Internship\Xamarin\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\XamarinAppUIStyleTwo\obj\Debug\netstandard2.0\ControllerHomePage.xaml.g.cs
